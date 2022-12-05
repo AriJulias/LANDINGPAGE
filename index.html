@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5e2e3ddf80.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        padding-top: 56px;
+      }
+
+      .jumbotron {
+        text-shadow: black 1px 1px;
+      }
+
+      .navbar-brand img {
+        height: 50px;
+        width: 120px;
+      }
+
+      .background-header {
+        background-image: url('image/susu.jpg');
+        background-color: #fafbfc;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .service-style {
+        margin-top: 15px;
+        background-color: #fafbfc;
+      }
+      .text-green {
+        color: green;
+      }
+      h2:before,
+      h2:after {
+        background-color: #0b9b6b;
+        content: '';
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+      }
+      h2::before {
+        right: 0.5em;
+        margin-left: -50%;
+      }
+      h2::after {
+        left: 0.5em;
+        margin-right: -50%;
+      }
+      .button-sekunder {
+        background-color: transparent;
+        border-color: #dbdbdb;
+        color: #0b9b6b;
+      }
+      .button-sekunder:hover {
+        background-color: #0b9b6b;
+        border-color: #dbdbdb;
+        color: #dbdbdb;
+      }
+      .cover {
+        background: no-repeat center/cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          ><img src="/image/ThePops1.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-expanded="false"
+          aria-controls="navBarContent"
+          aria-label="Toggle Navigatin"
+        >
+          <span class="navBar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#service"
+                >Service</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#product"
+                >Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#about"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header class="jumbotron jumbotron-fluid background-header">
+      <div class="container-fluid text-center">
+        <h1
+          class="display-3"
+          style="color: black"
+        >
+          Yogurt Asli
+        </h1>
+        <p
+          class="lead"
+          style="font-weight: bold; color: black"
+        >
+          Pt. YogurthFamily
+        </p>
+        <p>
+          <a
+            href="#"
+            class="btn btn-primary"
+            role="button"
+            >Hayu Guys</a
+          >
+        </p>
+      </div>
+    </header>
+
+    <!-- service -->
+    <section
+      id="service"
+      class="service-style"
+    >
+      <div class="container-fluid">
+        <div class="row justify-content-md-center text-center">
+          <div class="col-12 pb-5">
+            <h2
+              class="display-4 text-center mb-5"
+              style="margin-top: 4rem !important"
+            >
+              Mengapa Harus Kami ?
+            </h2>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-green"></i>
+              <i class="fa-solid fa-list fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-5 text-green">Barang Bagus</h3>
+            <p>Barang yang kami sediakan bagus dan lezat</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-green"></i>
+              <i class="fa-solid fa-money-bill fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-5 text-green">Makanan Yang Lezat</h3>
+            <p>Makanan yang kami sediakan sangat lezat dan sehat</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x text-green"></i>
+              <i class="fa-solid fa-money-bill fa-stack-1x text-white"></i>
+            </span>
+            <h3 class="mt-5 text-green">Harga Terjangkau</h3>
+            <p>Makanan yang kami jual sangat terjangkau dari segi harga</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product -->
+    <section
+      class="container-fluid"
+      id="product"
+    >
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2
+            class="display-4 text-center mb-5"
+            style="margin-top: 4rem !important"
+          >
+            Produk
+          </h2>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              style="max-height: 400px"
+              src="image/brand.jpg"
+              alt="product1"
+            />
+            <div
+              class="card-body"
+              style="min-height: 250px"
+            >
+              <h4 class="card-title">ES MAMBOW</h4>
+              <p class="card-text">Makanan jaman dulu yang membuat anda bernostalgia</p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="#"
+                class="btn button-sekunder"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              style="max-height: 400px"
+              src="image/brand.jpg"
+              alt="product1"
+            />
+            <div
+              class="card-body"
+              style="min-height: 250px"
+            >
+              <h4 class="card-title">ES MAMBOW</h4>
+              <p class="card-text">Makanan jaman dulu yang membuat anda bernostalgia</p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="#"
+                class="btn button-sekunder"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              style="max-height: 400px"
+              src="image/brand.jpg"
+              alt="product1"
+            />
+            <div
+              class="card-body"
+              style="min-height: 250px"
+            >
+              <h4 class="card-title">ES MAMBOW</h4>
+              <p class="card-text">Makanan jaman dulu yang membuat anda bernostalgia</p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="#"
+                class="btn button-sekunder"
+                >Detail & Harga</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+    <section
+      id="about"
+      class="bg-light"
+    >
+      <div class="container-fluid-max">
+        <h2 class="display-4 text-center mb-5">About Us</h2>
+        <div class="row no-gutters">
+          <div class="col-12 col-md-6">
+            <div style="padding: 12px">
+              <h3 class="display-5 text-center text-green mt-3 mb-3">KEla lah nya</h3>
+              <p style="text-align: justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse minus doloribus ut et vitae odit ipsa optio labore placeat! Sapiente quam molestiae est dolores nihil aliquid incidunt. Laboriosam, vitae doloremque?
+              </p>
+              <div class="col-12 pt-3 text-center">
+                <a
+                  href="#"
+                  class="btn btn-danger btn-lg text-white"
+                  >Lihat Kebunku</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="vh-100 cover"
+              style="background-image: url('image/ThePops.png')"
+            ></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="vh-100 cover"
+              style="background-image: url('image/ThePops.png')"
+            ></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div style="padding: 15px">
+              <h3 class="display-5 text-center text-green mt-3 mb-3">KEla lah nya</h3>
+              <p style="text-align: justify">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse minus doloribus ut et vitae odit ipsa optio labore placeat! Sapiente quam molestiae est dolores nihil aliquid incidunt. Laboriosam, vitae doloremque?
+              </p>
+              <div class="col-12 pt-3 text-center">
+                <a
+                  href="#"
+                  class="btn btn-danger btn-lg text-white"
+                  >Lihat Kebunku</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section
+      id="contact"
+      class="container-fluid text-center"
+      style="background-color: #e9f2eb; padding-top: 25px"
+    >
+      <h2 class="display-4 pb-5">Hubungi Saya Guys</h2>
+      <p class="lead pb-3">Kirim Pesan Untuk Bergabung</p>
+      <a
+        href="#"
+        class="btn btn-primary btn-lg mb-4"
+        >Whats App Kami</a
+      >
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark">
+      <div
+        class="col-lg-12"
+        style="padding: 10px"
+      >
+        <div style="text-align: center">
+          <a
+            href="#"
+            class="text-light"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="#"
+            class="text-light"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="#"
+            class="text-light"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <p class="text-center text-secondary">Copiright</p>
+    </footer>
+  </body>
+</html>
